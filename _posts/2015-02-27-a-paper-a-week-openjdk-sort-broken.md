@@ -6,7 +6,7 @@ categories: apaw
 ---
 I'm planning to read at least one paper a week about computer science or logic related topics and comment a bit on this blog. This is the first post in the series (let's see how long I am able to keep this up).
 
-The paper thus discussed has caught my attention because while I am really interested in and like logic and theoretical computer science, I am always ambigious about the practicability of the field. This makes me happy about a paper that shows real world problems being solved using tools (theorem proving) that would not be possible without extensive research in both fields.
+The paper thus discussed has caught my attention because while I am really interested in and like logic and theoretical computer science, I am always ambiguous about the practicability of the field. This makes me happy about a paper that shows real world problems being solved using tools (theorem proving) that would not be possible without extensive research in both fields.
 
 So, what is the paper actually about? It documents the findings of a group of researchers that have uncovered a bug in Java's TimSort implementation (and, actually, the algorithm TimSort itself) that results in Collection.sort throwing an index out of bound exception, which is the last thing one would expect it to do. As the authors point out in the introducing paragraphs, this is particularly interesting because the bug occurs in OpenJDK, a well-tested and well-studied piece of code. This shows that the bug occured despite unit-testing practices.
 
