@@ -1,7 +1,7 @@
 ---
 title: "Automatic Org-Mode"
 layout: post
-date: 2020-04-16 01:00:00 CET
+date: 2020-04-16 00:40:00 CEST
 ---
 With the unprecedented en vogue[^1] right now, I have taken the unprecedented
 step of trying out Emacs after having been a loyal Vim user for years. This is
