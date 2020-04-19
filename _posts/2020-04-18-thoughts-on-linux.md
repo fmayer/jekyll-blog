@@ -1,7 +1,7 @@
 ---
-title: "Thoughts on Linux"
+title: "Linux: The good, the bad and the ugly"
 layout: post
-date: 2020-04-20 12:00:00 CEST
+date: 2020-04-19 17:30:00 CEST
 ---
 
 I've been working on system-level software for Linux for some time now,
@@ -291,7 +291,6 @@ calling code can't do anything with that information.
 I could go on, but I think I'll wrap it up here. People can only take so much.
 [^followup]
 
-
 Systems programming is exciting, and if you've read this far you'd probably be
 inclined to agree. I've shown some of the not-so-nice corners I've come across.
 Some are inevitable in an operating system of this size and age. But they also
@@ -309,7 +308,15 @@ very hard to reason about large state spaces.
   programmers. People will violate that contract, but no one knows what to
   expect if there isn't any.
 
-# Quiz results {#quiz-results}
+But also, we have to work with what we've got. Even if we come up with robust
+APIs for client applications, there we always be the long-tail of weird
+legacy software that uses the old ones. `fork` is here to stay, and so are
+threads. What we can do is meticulously document both the caveats that come
+with those, and the behaviour. For `/proc` files, some EBNF definition can help
+both formalize the format, and be used to auto-generate parsers. The less
+we can base our engineering on guesswork, the better.
+
+# EBNF results {#quiz-results}
 1. Maybe.[^maybe]
 2. Tabs.[^status-tabs]
 3. Yes.
@@ -342,7 +349,7 @@ make any sense either, because they are both single values.
 [^2]: Or cheat, I'm a sign, not a cop.
 
 [^link-error]: This has actually happened to me before. But if you know where
-               to look ([man execve](http://man7.org/linux/man-pages/man2/execve.2.html))
+               to look ([`man execve`](http://man7.org/linux/man-pages/man2/execve.2.html)),
                it's at least documented.
 
 [`clone`]: http://man7.org/linux/man-pages/man2/clone.2.html
