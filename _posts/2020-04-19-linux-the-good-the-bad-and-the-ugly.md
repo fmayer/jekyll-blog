@@ -209,8 +209,8 @@ Ultimately, things do not compose in a way that make it possible to locally
 reason about a program. Yes, if you hold fork and threads exactly right (for
 instance by managing all the threads, and having a way to signal them to go
 to a safe state, and then forking) you *can* write a correct program. But that
-requires you to globally about your program, which only works if you control
-every bit of your program, and even then is very hard.
+requires you to reason globally about your program, which only works if you
+control every bit of your program, and even then is very hard.
 
 # ENOSYS
 Writing cross-platform software is hard. Most software is written for Linux,
