@@ -30,7 +30,7 @@ With all our fancy tools of the supposed information age, can we do better?
 
 # Maybe?
 This has been my main note-taking system for about three years now. Before that,
-calling my note-taking at work a system would have been an euphemism[^7]. How
+calling my note-taking at work a system would have been a euphemism[^7]. How
 come I, as a computer engineer with terrible handwriting, still use a physical
 piece of paper?
 
