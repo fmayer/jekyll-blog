@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: _site/blog
+
+website:
+  title: "Strings over Σ"
+  description: "A blog about computer science, logic and programming. Occasionally other topics reasonably consistent with the rest."
+  site-url: https://bitsrc.org/blog
+  favicon: favicon.ico
+
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/fmayer
+      - icon: rss
+        href: index.xml
+
+  page-footer:
+    left: |
+      Contact: [blog@bitsrc.org](mailto:blog@bitsrc.org)
+    right: |
+      Built with [Quarto](https://quarto.org)
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    html-math-method: mathjax
+
+execute:
+  freeze: auto
+

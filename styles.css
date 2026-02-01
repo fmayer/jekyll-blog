@@ -1,0 +1,65 @@
+/* Custom styles migrated from Jekyll blog */
+
+/* Base typography */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #111;
+  background-color: #fdfdfd;
+}
+
+/* Links */
+a {
+  color: #2a7ae2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Content width */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Code blocks */
+pre {
+  background-color: #f5f5f5;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  padding: 8px 12px;
+  overflow-x: auto;
+}
+
+code {
+  background-color: #f5f5f5;
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+/* Blockquotes */
+blockquote {
+  color: #828282;
+  border-left: 4px solid #e8e8e8;
+  padding-left: 15px;
+  font-style: italic;
+}
+
+/* Post list styling */
+.quarto-listing-default .listing-title {
+  color: #2a7ae2;
+}
+
+/* Post metadata */
+.quarto-title-meta {
+  color: #828282;
+}
+
+/* Footer */
+.nav-footer {
+  border-top: 1px solid #e8e8e8;
+  color: #828282;
+}

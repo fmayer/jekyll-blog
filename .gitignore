@@ -1,3 +1,6 @@
 _site
 .sass-cache
 _last_deploy.txt
+
+/.quarto/
+**/*.quarto_ipynb
