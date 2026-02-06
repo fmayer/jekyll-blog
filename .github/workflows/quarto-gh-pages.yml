@@ -35,6 +35,9 @@ jobs:
       - name: Render Quarto site
         uses: quarto-dev/quarto-actions/render@v2
 
+      - name: Copy static files
+        run: cp -r static/* _site/
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
