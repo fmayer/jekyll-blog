@@ -1,7 +1,0 @@
-# put here any directive needed only when deploying
-# a special deploy_dir variable specifies the deployment location using rsync
-
-url: http://bitsrc.org/
-baseurl: /blog
-deploy_dir: name@bitsrc.org:/home/name/blogposts/
-
