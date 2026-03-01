@@ -2,6 +2,6 @@
 title: "About"
 ---
 
-This is the blog of Florian Mayer. I am a Software Engineer at Google UK. All views expressed here are mine alone and neither those of Google nor of the Queen of England.
+This is the blog of Florian Mayer. I am a Software Engineer working on compilers and memory safety at Google. All views expressed here are mine alone.
 
 Before I joined Google, I studied Software & Information Engineering at Vienna University of Technology, followed by a semester of Computational Intelligence. I am very interested in formal logic and theoretical computer science.
